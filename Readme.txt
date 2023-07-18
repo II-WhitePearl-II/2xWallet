@@ -1,17 +1,13 @@
 Config Tutorial:
 [main]
-useConfig = False/True
-threads = 1-100 (you can use more but it need more proxys and CPU/RAM
-webhook = https://discord.com/api/webhooks/... Your discord webhook
-miner = btc/ltc/eth (Only btc is working rn, we are working on the others)
+useConfig = True
+threads = 5
+webhook = https://discord.com/api/webhooks/Prem
+miner = btc
 
 [optional]
-useProxy = False/True
-changeProxyRatio = 1-100 (Try yourself, but i would recommend 10or20)
-showOnlyHits = False/True
+useProxy = True
+changeProxyRatio = 20
+showOnlyHits = False
 
 -------------
-I recommend you to use proxys and a webhook :)
-good luck!
-https://discord.gg/xVttMAQzhQ
-
